@@ -64,23 +64,78 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Shiori is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
+Shiori is an open-source, self‑hosted bookmark manager written in Go. It offers a simple web interface and command‑line tool for adding, editing, deleting, and searching bookmarks, with support for SQLite, PostgreSQL, MariaDB, and MySQL. Shiori can archive page content for offline reading, import from Pocket, and provides optional browser extensions. The project is MIT‑licensed and aims to give users a fast, organized place for all their links.
 
-**Areas:** Company
+**Areas:** Bookmarks · Self-hosted · Open-source · Go · CLI
 
 ## Shiori on APIs.io
 
 Everything profiled for Shiori is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/shiori/](https://apis.io/providers/shiori/)** — or go straight to one of the APIs or properties below.
 
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Shiori Domain Security](https://apis.io/security/shiori/shiori-domain-security/)
+
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- [Website](https://github.com/go-shiori/shiori)
+- [Website](https://shioriapp.io)
+- [Documentation](https://github.com/go-shiori/shiori/blob/master/docs/index.md)
+- [Pricing](https://shioriapp.io/pricing)
+- [Changelog](https://github.com/AppitStudio/shiori-updates/releases/download/v1.0.3/Shiori.dmg)
+- [Blog](https://shioriapp.io/blog)
+- [Terms of service](https://shioriapp.io/terms)
+- [Privacy policy](https://shioriapp.io/privacy-policy)
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/shiori/](https://apis.io/providers/shiori/).
+**Kin Score 18.0** — emerging · rubric 0.25.0 · scored 2026-10-28
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 44.7 |
+
+**Agent readiness 3.1** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/shiori/](https://apis.io/providers/shiori/).
 
 ## How this profile is made
 
